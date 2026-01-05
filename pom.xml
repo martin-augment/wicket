@@ -24,7 +24,7 @@
 	</parent>
 	<groupId>org.apache.wicket</groupId>
 	<artifactId>wicket-parent</artifactId>
-	<version>10.8.0-SNAPSHOT</version>
+	<version>10.9.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Wicket Parent</name>
 	<description>Wicket is a Java-based open source component web application framework.</description>
@@ -130,7 +130,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<project.build.outputTimestamp>2025-09-30T20:04:28Z</project.build.outputTimestamp>
+		<project.build.outputTimestamp>2025-12-21T14:47:07Z</project.build.outputTimestamp>
 
 		<javadoc.additionalJOption />
 		<javadoc.jdk.apidocs.link>https://docs.oracle.com/en/java/javase/${java.specification.version}/docs/api/</javadoc.jdk.apidocs.link>
@@ -141,11 +141,11 @@
 		<maven.compiler.target>17</maven.compiler.target>
 
 		<!-- Project Versions -->
-		<asm.version>9.9</asm.version>
-		<aspectj.version>1.9.25</aspectj.version>
+		<asm.version>9.9.1</asm.version>
+		<aspectj.version>1.9.25.1</aspectj.version>
 		<assertj-core.version>3.27.6</assertj-core.version>
 		<bouncycastle.version>1.83</bouncycastle.version>
-		<byte-buddy.version>1.18.2</byte-buddy.version>
+		<byte-buddy.version>1.18.3</byte-buddy.version>
 		<cdi-unit.version>5.0.0-EA7</cdi-unit.version>
 		<commons-collections4.version>4.5.0</commons-collections4.version>
 		<commons-fileupload.version>2.0.0-M4</commons-fileupload.version>
@@ -175,7 +175,7 @@
 		<hibernate-validator.version>8.0.2.Final</hibernate-validator.version>
 		<httpunit.version>1.7.3</httpunit.version>
 		<metrics.version>4.2.37</metrics.version>
-		<mockito.version>5.20.0</mockito.version>
+		<mockito.version>5.21.0</mockito.version>
 		<objenesis.version>3.4</objenesis.version>
 		<openjson.version>1.0.13</openjson.version>
 		<slf4j.version>2.0.17</slf4j.version>
@@ -186,7 +186,7 @@
 
 		<!-- Maven plugins -->
 		<build-helper-maven-plugin.version>3.6.1</build-helper-maven-plugin.version>
-		<japicmp-maven-plugin.version>0.24.2</japicmp-maven-plugin.version>
+		<japicmp-maven-plugin.version>0.25.1</japicmp-maven-plugin.version>
 		<maven-archetype-plugin.version>3.4.1</maven-archetype-plugin.version>
 		<maven-bundle-plugin.version>6.0.0</maven-bundle-plugin.version>
 		<maven-clean-plugin.version>3.5.0</maven-clean-plugin.version>
@@ -199,7 +199,7 @@
 		<maven-jar-plugin.version>3.5.0</maven-jar-plugin.version>
 		<maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
 		<maven-project-info-reports-plugin.version>3.9.0</maven-project-info-reports-plugin.version>
-		<maven-release-plugin.version>3.2.0</maven-release-plugin.version>
+		<maven-release-plugin.version>3.3.1</maven-release-plugin.version>
 		<maven-remote-resources-plugin.version>3.3.0</maven-remote-resources-plugin.version>
 		<maven-resources-plugin.version>3.4.0</maven-resources-plugin.version>
 		<maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
@@ -346,25 +346,25 @@
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-auth-roles</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-bean-validation</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-cdi</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
@@ -376,19 +376,19 @@
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-core</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-core-tests</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-devutils</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
@@ -399,79 +399,79 @@
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-extensions</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-extensions-tester</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-guice</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-ioc</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-jmx</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-native-websocket-core</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-native-websocket-javax</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-native-websocket-tester</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-request</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-spring</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-util</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-velocity</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.wicket.experimental.wicket10</groupId>
 				<artifactId>wicket-metrics</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 
@@ -582,7 +582,7 @@
 			<dependency>
 				<groupId>org.apache.wicket</groupId>
 				<artifactId>wicket-tester</artifactId>
-				<version>10.8.0-SNAPSHOT</version>
+				<version>10.9.0-SNAPSHOT</version>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
