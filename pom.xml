@@ -144,20 +144,20 @@
 		<asm.version>9.9.1</asm.version>
 		<aspectj.version>1.9.25.1</aspectj.version>
 		<assertj-core.version>3.27.7</assertj-core.version>
-		<bouncycastle.version>1.83</bouncycastle.version>
-		<byte-buddy.version>1.18.5</byte-buddy.version>
+		<bouncycastle.version>1.84</bouncycastle.version>
+		<byte-buddy.version>1.18.8</byte-buddy.version>
 		<cdi-unit.version>5.0.0-EA7</cdi-unit.version>
 		<commons-collections4.version>4.5.0</commons-collections4.version>
-		<commons-fileupload.version>2.0.0-M4</commons-fileupload.version>
+		<commons-fileupload.version>2.0.0-M5</commons-fileupload.version>
 		<commons-io.version>2.21.0</commons-io.version>
 		<commons-lang3.version>3.20.0</commons-lang3.version>
 		<guice.version>7.0.0</guice.version>
 		<el-impl.version>2.2.1-b05</el-impl.version>
-		<error_prone_annotations.version>2.47.0</error_prone_annotations.version>
+		<error_prone_annotations.version>2.49.0</error_prone_annotations.version>
 		<forbiddenapis.version>3.10</forbiddenapis.version>
 		<jacoco.version>0.8.14</jacoco.version>
 		<jackson.version>2.14.3</jackson.version>
-		<jakarta.annotation-api.version>2.1.1</jakarta.annotation-api.version>
+		<jakarta.annotation-api.version>3.0.0</jakarta.annotation-api.version>
 		<jakarta.el.version>4.0.2</jakarta.el.version>
 		<jakarta.el-api.version>5.0.1</jakarta.el-api.version>
 		<jakarta.enterprise.cdi-api.version>4.1.0</jakarta.enterprise.cdi-api.version>
@@ -168,27 +168,27 @@
 		<jakarta.servlet-api.version>6.0.0</jakarta.servlet-api.version>
 		<jdk-serializable-functional.version>1.9.0</jdk-serializable-functional.version>
 		<jetty.version>11.0.24</jetty.version>
-		<junit.version>6.0.2</junit.version>
+		<junit.version>6.0.3</junit.version>
 		<jsr305.version>3.0.2</jsr305.version>
 		<logback.version>1.2.7</logback.version>
 		<hamcrest.version>3.0</hamcrest.version>
 		<hibernate-validator.version>9.1.0.Final</hibernate-validator.version>
 		<httpunit.version>1.7.3</httpunit.version>
 		<metrics.version>4.2.38</metrics.version>
-		<mockito.version>5.21.0</mockito.version>
+		<mockito.version>5.23.0</mockito.version>
 		<objenesis.version>3.5</objenesis.version>
 		<openjson.version>1.0.13</openjson.version>
 		<slf4j.version>2.0.17</slf4j.version>
-		<spring.version>7.0.4</spring.version>
+		<spring.version>7.0.7</spring.version>
 		<wagon-ssh-external.version>3.5.3</wagon-ssh-external.version>
 		<weld.version>6.0.4.Final</weld.version>
 		<velocity-engine-core.version>2.4.1</velocity-engine-core.version>
 
 		<!-- Maven plugins -->
 		<build-helper-maven-plugin.version>3.6.1</build-helper-maven-plugin.version>
-		<japicmp-maven-plugin.version>0.25.4</japicmp-maven-plugin.version>
+		<japicmp-maven-plugin.version>0.25.6</japicmp-maven-plugin.version>
 		<maven-archetype-plugin.version>3.4.1</maven-archetype-plugin.version>
-		<maven-bundle-plugin.version>6.0.0</maven-bundle-plugin.version>
+		<maven-bundle-plugin.version>6.0.2</maven-bundle-plugin.version>
 		<maven-clean-plugin.version>3.5.0</maven-clean-plugin.version>
 		<maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
 		<maven-deploy-plugin.version>3.1.4</maven-deploy-plugin.version>
@@ -201,12 +201,12 @@
 		<maven-project-info-reports-plugin.version>3.9.0</maven-project-info-reports-plugin.version>
 		<maven-release-plugin.version>3.3.1</maven-release-plugin.version>
 		<maven-remote-resources-plugin.version>3.3.0</maven-remote-resources-plugin.version>
-		<maven-resources-plugin.version>3.4.0</maven-resources-plugin.version>
-		<maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
+		<maven-resources-plugin.version>3.5.0</maven-resources-plugin.version>
+		<maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
 		<maven-source-plugin.version>3.4.0</maven-source-plugin.version>
 		<maven-toolchains-plugin.version>3.2.0</maven-toolchains-plugin.version>
 		<maven-war-plugin.version>3.5.1</maven-war-plugin.version>
-		<resources-optimizer-maven-plugin.version>2.7.5</resources-optimizer-maven-plugin.version>
+		<resources-optimizer-maven-plugin.version>2.7.9</resources-optimizer-maven-plugin.version>
 
 		<osgi.dynamicimport.package />
 		<osgi.export.package>*</osgi.export.package>
@@ -991,12 +991,12 @@
 						<dependency>
 							<groupId>com.sun.xml.bind</groupId>
 							<artifactId>jaxb-core</artifactId>
-							<version>4.0.6</version>
+							<version>4.0.7</version>
 						</dependency>
 						<dependency>
 							<groupId>com.sun.xml.bind</groupId>
 							<artifactId>jaxb-impl</artifactId>
-							<version>4.0.6</version>
+							<version>4.0.7</version>
 						</dependency>
 						<dependency>
 							<groupId>javax.activation</groupId>
